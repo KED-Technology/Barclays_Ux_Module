@@ -1,0 +1,39 @@
+{
+  "name": "Barclays",
+  "description": "New Module Created Without adding Skeleton files",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "vaishnavi",
+    "email": "vaishnavi.p@ked-technology.com"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 10.22.0"
+  },
+  "scripts": {
+    "test": "grunt ci",
+    "build": "babel ./build/es/src/rc/apexcharts.js --out-file ./build/es/src/rc/apexcharts-compiled.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-istanbul": "^4.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "grunt": "~1.0.1",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-niagara": "^2.1.0",
+    "grunt-requirejs": "^0.4.2",
+    "requirejs": "^2.3.7",
+    "requirejs-babel": "^0.0.9"
+  },
+  "keywords": [],
+  "dependencies": {
+    "apexcharts": "^4.3.0"
+  }
+}
