@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testModule/testModule-ux/TestModule.testModule.testModule-ux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/testModule/testModule-ux/TestModule.testModule.testModule-ux.main.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Barclays/Barclays-ux/BarclaysDash.Barclays.Barclays-ux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Barclays/Barclays-ux/BarclaysDash.Barclays.Barclays-ux.main.iml" />
+>>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
     </modules>
   </component>
 </project>

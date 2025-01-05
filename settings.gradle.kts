@@ -1,5 +1,9 @@
 /*
+<<<<<<< HEAD
+ * Copyright 2024 tridiumuniversity. All Rights Reserved.
+=======
  * Copyright 2024 trodiumuniversity. All Rights Reserved.
+>>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
  */
 
 import com.tridium.gradle.plugins.settings.MultiProjectExtension
@@ -131,4 +135,8 @@ configure<MultiProjectExtension> {
   findProjects()
 }
 
+<<<<<<< HEAD
+rootProject.name = "testModule"
+=======
 rootProject.name = "Barclays"
+>>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80

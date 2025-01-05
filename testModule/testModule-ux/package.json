@@ -1,0 +1,32 @@
+{
+  "name": "testModule",
+  "description": "new for test dashboard",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Vaishnavi",
+    "email": "vaishnavi.p@ked-technology.com"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 10.22.0"
+  },
+  "scripts": {
+    "test": "grunt ci"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-plugin-istanbul": "^4.1.3",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.3",
+    "grunt": "~1.0.1",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-niagara": "^2.1.0",
+    "grunt-requirejs": "^0.4.2"
+  },
+  "keywords": []
+}

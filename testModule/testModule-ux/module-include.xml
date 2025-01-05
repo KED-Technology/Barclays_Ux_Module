@@ -1,0 +1,6 @@
+<types>
+  <!--src.com.tridiumuniversity.testModule.ux-->
+  <type class="src.com.tridiumuniversity.testModule.ux.BBarclaysWidget" name="BarclaysWidget"/>
+  <!--com.tridiumuniversity.testModule.ux-->
+  <type class="com.tridiumuniversity.testModule.ux.BBarclaysWidget" name="BarclaysWidget"/>
+</types>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="testModule-ux" bajaVersion="0" vendor="tridiumuniversity" vendorVersion="1.0" description="new for test dashboard" preferredSymbol="test" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="testModule" runtimeProfile="ux">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="js-ux" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <types>
+  <type class="src.com.tridiumuniversity.testModule.ux.BBarclaysWidget" name="BarclaysWidget"/>
+  <type class="com.tridiumuniversity.testModule.ux.BBarclaysWidget" name="BarclaysWidget"/>
+ </types>
+</module>
