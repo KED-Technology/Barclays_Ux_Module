@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <niagara-module moduleName="testModule" preferredSymbol="test" runtimeProfiles="wb,ux"/>
+=======
+<niagara-module moduleName="Barclays" preferredSymbol="bar" runtimeProfiles="ux"/>
+>>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80

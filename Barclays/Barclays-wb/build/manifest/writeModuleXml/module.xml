@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="Barclays-wb" bajaVersion="0" vendor="trodiumuniversity" vendorVersion="1.0" description="no description" preferredSymbol="bar" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="Barclays" runtimeProfile="wb">
+ <dependencies>
+  <dependency name="alarm-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="bajaui-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="bajaux-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="box-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="bql-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="control-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="gx-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="history-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="html-wb" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="workbench-wb" vendor="Tridium" vendorVersion="4.14"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>
