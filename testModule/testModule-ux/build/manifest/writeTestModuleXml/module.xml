@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="testModule-uxTest" bajaVersion="0" vendor="tridiumuniversity" vendorVersion="1.0" description="Tests for module testModule-ux" preferredSymbol="test" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="LAPTOP-27QBT9P6" moduleName="testModuleTest" runtimeProfile="ux">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="js-ux" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="web-rt" vendor="Tridium" vendorVersion="4.14"/>
+  <dependency name="testModule-ux" vendor="tridiumuniversity" vendorVersion="1.0"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+</module>
