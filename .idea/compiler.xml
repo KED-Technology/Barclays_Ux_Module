@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-        <option name="niagara.module.root" value="C:\Development\TestModule\testModule\testModule-wb" />
-=======
-        <option name="niagara.module.root" value="C:\Development\BarclaysDash\Barclays\Barclays-wb" />
->>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
-        <option name="niagara.test.roots" value="srcTest=java" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../Niagara/Niagara-4.14.0.162/bin/ext/nre.jar" />
-        </processorPath>
-<<<<<<< HEAD
-        <module name="testModule.testModule-wb.moduleTest" />
-        <module name="testModule.testModule-wb.main" />
-      </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <option name="niagara.module.root" value="C:\Development\TestModule\testModule-ux" />
-=======
-        <module name="Barclays.Barclays-wb.main" />
-        <module name="Barclays.Barclays-wb.moduleTest" />
-      </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <option name="niagara.module.root" value="C:\Development\BarclaysDash\Barclays-ux" />
->>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
-        <option name="niagara.test.roots" value="srcTest=java" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../Niagara/Niagara-4.14.0.162/bin/ext/nre.jar" />
-        </processorPath>
-      </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-        <option name="niagara.module.root" value="C:\Development\TestModule\testModule\testModule-ux" />
-=======
-        <option name="niagara.module.root" value="C:\Development\BarclaysDash\Barclays\Barclays-ux" />
->>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
-        <option name="niagara.test.roots" value="srcTest=java" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../Niagara/Niagara-4.14.0.162/bin/ext/nre.jar" />
-        </processorPath>
-<<<<<<< HEAD
-        <module name="TestModule.testModule.testModule-ux.moduleTest" />
-        <module name="TestModule.testModule.testModule-ux.main" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="testModule.testModule-ux.main" target="8" />
       <module name="testModule.testModule-ux.moduleTest" target="8" />
       <module name="testModule.testModule-ux.test" target="8" />
-=======
-        <module name="BarclaysDash.Barclays.Barclays-ux.moduleTest" />
-        <module name="BarclaysDash.Barclays.Barclays-ux.main" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="Barclays.Barclays-ux.main" target="8" />
-      <module name="Barclays.Barclays-ux.moduleTest" target="8" />
-      <module name="Barclays.Barclays-ux.test" target="8" />
->>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
+      <module name="testModule.testModule-wb.main" target="8" />
+      <module name="testModule.testModule-wb.moduleTest" target="8" />
+      <module name="testModule.testModule-wb.test" target="8" />
+      <module name="TestModule.testModule.testModule-ux.main" target="8" />
+      <module name="TestModule.testModule.testModule-ux.moduleTest" target="8" />
+      <module name="TestModule.testModule.testModule-ux.test" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

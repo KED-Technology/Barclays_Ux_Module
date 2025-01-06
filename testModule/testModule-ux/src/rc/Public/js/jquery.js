@@ -1,6 +1,6 @@
 jQuery(function () {
 
-    let url = "https://localhost";//192.168.1.103
+    let url = "https://192.168.1.103";//192.168.1.103
    let currentDate = new Date();
 let previousDate = new Date(currentDate);
 previousDate.setDate(previousDate.getDate() - 1);
@@ -311,7 +311,7 @@ fetchPowerConsumption();
 
         // Fetch data for each scope
         for (let scope of scopes) {
-            const responses = await fetch(`${url}/obix/histories/Barclays_Sup/Co2$20Emission$20in$20Ton_${scope}_Daily/~historyQuery?start=${formattedDate}T23:58:00.000+05:30&limit=1`); ///~historyQuery?start=${previousDate}T23:59:59.000+05:30&limit=1
+            const responses = await fetch(`https://192.168.1.103/obix/histories/Barclays_Sup/Co2$20Emission$20in$20Ton_${scope}_Daily/~historyQuery?start=${formattedDate}T23:58:00.000+05:30&limit=1`); ///~historyQuery?start=${previousDate}T23:59:59.000+05:30&limit=1
             console.log("response for scope " + scope, responses);
             const text = await responses.text();
             //console.log("text " + text);

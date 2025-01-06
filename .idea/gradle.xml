@@ -5,17 +5,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-<<<<<<< HEAD
             <option value="$PROJECT_DIR$/testModule/testModule-ux" />
             <option value="$PROJECT_DIR$/testModule/testModule-wb" />
-=======
-            <option value="$PROJECT_DIR$/Barclays/Barclays-ux" />
-            <option value="$PROJECT_DIR$/Barclays/Barclays-wb" />
->>>>>>> 920af3e3b90cdd373845c65c50a58cc9b30f7f80
           </set>
         </option>
       </GradleProjectSettings>

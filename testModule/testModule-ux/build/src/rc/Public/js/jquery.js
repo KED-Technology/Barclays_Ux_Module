@@ -13,7 +13,7 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 jQuery(function () {
-  var url = "https://localhost"; //192.168.1.103
+  var url = "https://192.168.1.103"; //192.168.1.103
   var currentDate = new Date();
   var previousDate = new Date(currentDate);
   previousDate.setDate(previousDate.getDate() - 1);
@@ -494,7 +494,7 @@ jQuery(function () {
             }
             scope = _scopes[_i];
             _context31.next = 11;
-            return fetch("".concat(url, "/obix/histories/Barclays_Sup/Co2$20Emission$20in$20Ton_").concat(scope, "_Daily/~historyQuery?start=").concat(formattedDate, "T23:58:00.000+05:30&limit=1"));
+            return fetch("https://192.168.1.103/obix/histories/Barclays_Sup/Co2$20Emission$20in$20Ton_".concat(scope, "_Daily/~historyQuery?start=").concat(formattedDate, "T23:58:00.000+05:30&limit=1"));
           case 11:
             responses = _context31.sent;
             ///~historyQuery?start=${previousDate}T23:59:59.000+05:30&limit=1
